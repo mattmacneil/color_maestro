@@ -10,14 +10,17 @@
 		<div class="hero-image-container">
 
 			<div class="hero-image">
-
-				hi
-
 			</div><!-- hero image -->
 
 			<div class="hero-content-container">
 
-				hi
+				<div class="hero-content-align">
+
+					<span class="title-name">Kenneth Fielding:</span>
+
+					<h1>Colour Maestro & Styling Expert</h1>
+
+				</div><!-- hero content align -->
 
 			</div><!-- hero content container -->
 
@@ -37,7 +40,7 @@
 
 		<span class="title-name">Kenneth Fielding:</span>
 
-		<h1>KFCM<br />Colour<br />Maestro</h1>
+		<h1>KFCM<br />Colour Maestro & Stylist</h1>
 
 		<div class="linkbox">
 

@@ -5,7 +5,7 @@
 	width: 100%;
 	max-width: 1800px;
 	margin: 0 auto;
-	padding: 0 10%;
+	padding: 0 15%;
 }
 
 .section-pad {
@@ -15,7 +15,6 @@
 
 .hero {
 	width: 100%;
-	background-color: $orange;
 	height: 25em;
 }
 
@@ -23,7 +22,6 @@
 		width: 100%;
 		height: 100%;
 		position: relative;
-		background-color: green;
 	}
 
 		.hero-image {
@@ -31,6 +29,9 @@
 			height: 100%;
 			margin-left: 40%;
 			background-color: $yellow;
+			background-image: url('../../images/bg.jpg');
+			background-size: cover;
+			background-position: center center;
 		}
 
 	.hero-content-container {
@@ -39,8 +40,33 @@
 		position: absolute;
 		left: 0;
 		top: 0;
-		background-color: lightblue;
+		display: table;
 	}
+
+		.hero-content-align {
+			width: 100%;
+			height: 100%;
+			padding: 0 40% 0 0%;
+			display: table-cell;
+			vertical-align: middle;
+
+			.title-name {
+				text-transform: uppercase;
+				display: inline-block;
+				margin-bottom: 2em;
+				color: darken($pink, 10%);
+			}
+
+			h1 {
+				font-size: 3em;
+				line-height: 1;
+				margin-bottom: .25em;
+				border-bottom: 0px solid black;
+				//-webkit-animation:colorchange 10s infinite alternate;
+				font-family: $headline-font;
+				position: relative;
+			}
+		}
 
 .content-container {
 	width: 100%;
