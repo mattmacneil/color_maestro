@@ -38,6 +38,17 @@ nav {
 			border-top: 1px solid $col50;
 		}
 
+		&:hover {
+			span:first-of-type {
+				border-color: $col100;
+			}
+
+			span:last-of-type {
+				border-color: $pink;
+			}
+
+			@include fader;
+		}
 	}
 
 	.nav-links {
@@ -83,7 +94,7 @@ nav {
 		}
 	}
 
-	.rap {
+	.nav-booking-link {
 		&:hover {
 			.nav-booking {
 				span {

@@ -4,11 +4,13 @@
 
 		<nav>
 
+			<a href="index.php">
 			<div class="nav-logo">
 
 				<span>K</span><span>F</span><span>C</span><span>M</span>
 
 			</div><!-- nav logo -->
+			</a>
 
 			<div class="nav-links">
 
@@ -18,7 +20,7 @@
 
 			</div><!-- nav links -->
 
-			<a href="https://www.styleseat.com/m/book/v/kennethfielding" class="rap" target="_blank">
+			<a href="https://www.styleseat.com/m/book/v/kennethfielding" class="nav-booking-link" target="_blank">
 			<div class="nav-booking">
 
 				<span>book appt.</span>

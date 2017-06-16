@@ -3,6 +3,30 @@
     include "nav.php";
 ?>
 
+<section class="content section-pad">
+
+	<div class="hero">
+
+		<div class="hero-image-container">
+
+			<div class="hero-image">
+
+				hi
+
+			</div><!-- hero image -->
+
+			<div class="hero-content-container">
+
+				hi
+
+			</div><!-- hero content container -->
+
+		</div><!-- hero image container -->
+
+	</div><!-- hero -->
+
+</section><!-- section (hero) -->
+
 
 <div style="height: 600px;"></div>
 
