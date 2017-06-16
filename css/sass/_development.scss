@@ -27,36 +27,27 @@
 		h1 {
 			font-size: 6em;
 			line-height: 1;
-			padding-bottom: .25em;
-			margin-bottom: 2em;
-			border-bottom: 1px solid black;
+			margin-bottom: .25em;
+			border-bottom: 0px solid black;
 			font-weight: bold;
-			-webkit-animation:colorchange 40s infinite alternate;
+			-webkit-animation:colorchange 10s infinite alternate;
+			font-family: $headline-font;
+			position: relative;
 		}
 	}
 
-	$col0: #ABC3FF;
-	$col10: #5FFFC8;
-	$col20: #9BF3EB;
-	$col30: #FCFF8A;
-	$col40: #ABC3FF;
+	.linkbox {
+		width: 100%;
+		background-color: red;
+	}
+
+	$col0: #FCFF8A;
 	$col50: #5FFFC8;
-	$col60: #9BF3EB;
-	$col70: #FCFF8A;
-	$col80: #ABC3FF;
-	$col90: #5FFFC8;
-	$col100: #9BF3EB;
+	$col100: #ABC3FF;
+
 
     @-webkit-keyframes colorchange {
       0%  {color:  $col0; border-color:  $col0;}
-      10% {color: $col10; border-color: $col10;}
-      20% {color: $col20; border-color: $col20;}
-      30% {color: $col30; border-color: $col30;}
-      40% {color: $col40; border-color: $col40;}
       50% {color: $col50; border-color: $col50;}
-      60% {color: $col60; border-color: $col60;}
-      70% {color: $col70; border-color: $col70;}
-      80% {color: $col80; border-color: $col80;}
-      90% {color: $col90; border-color: $col90;}
       100% {color: $col100; border-color: $col100;}
     }

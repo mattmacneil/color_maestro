@@ -8,7 +8,13 @@
 
 		<span class="title-name">Kenneth Fielding:</span>
 
-		<h1>Colour<br />Maestro.</h1>
+		<h1>Colour<br />Maestro</h1>
+
+		<div class="linkbox">
+
+			hi
+
+		</div><!-- linkbox -->
 
 	</div><!-- content container inner -->
 
@@ -16,6 +22,6 @@
 
 <?php 
 
-    include "footer.php";
+   // include "footer.php";
 
 ?>
