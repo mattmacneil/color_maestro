@@ -18,7 +18,7 @@
 
 			</div><!-- nav links -->
 
-			<a href="styleseat.com" target="_blank">
+			<a href="https://www.styleseat.com/m/book/v/kennethfielding" target="_blank">
 			<div class="nav-booking">
 
 				<span>book appt.</span>
