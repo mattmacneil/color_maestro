@@ -1,6 +1,11 @@
 <?php
     include "head.php";
+    include "nav.php";
 ?>
+
+
+<div style="height: 600px;"></div>
+
 
 <div class="content-container">
 
@@ -8,7 +13,7 @@
 
 		<span class="title-name">Kenneth Fielding:</span>
 
-		<h1>Colour<br />Maestro</h1>
+		<h1>KFCM<br />Colour<br />Maestro</h1>
 
 		<div class="linkbox">
 

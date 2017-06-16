@@ -8,10 +8,14 @@ $orange: orange;
 $yellow: #FCFF8A;
 $pink: #F29B90;
 
+	$col0: #FCFF8A;
+	$col50: #5FFFC8;
+	$col100: #ABC3FF;
+
 ///
 
-$body_background_color: $pink;
-$body_background_image: url("../../images/bdg.jpg");
+$body_background_color: darken($white, 5%);
+$body_background_image: url("../../images/bng.jpg");
 
 $headline-font: "headerfonts", "Arial Black", Gadget, sans-serif;
 $headline-weight: 700;

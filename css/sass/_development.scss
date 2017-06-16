@@ -1,6 +1,13 @@
 @import "mixins";
 @import "vars";
 
+.content {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	padding: 0 10%;
+}
+
 .content-container {
 	width: 100%;
 	height: 100%;
@@ -20,7 +27,7 @@
 		.title-name {
 			text-transform: uppercase;
 			display: inline-block;
-			margin-bottom: 1em;
+			margin-bottom: 2em;
 			color: darken($pink, 60%);
 		}
 
@@ -40,11 +47,6 @@
 		width: 100%;
 		background-color: red;
 	}
-
-	$col0: #FCFF8A;
-	$col50: #5FFFC8;
-	$col100: #ABC3FF;
-
 
     @-webkit-keyframes colorchange {
       0%  {color:  $col0; border-color:  $col0;}

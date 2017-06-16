@@ -1,2 +1,83 @@
 @import "vars";
 @import "mixins";
+
+.nav-wrap {
+	width: 100%;
+	background-color: $white;
+}
+
+nav {
+	width: 100%;
+	padding: 1.75em 0;
+}
+
+ $nav-side: 20%;
+ $spanpad: .5em;
+
+	.nav-logo,
+	.nav-links,
+	.nav-booking {
+		float: left;
+	}
+
+	.nav-logo,
+	.nav-booking {
+		width: $nav-side;
+	}
+
+	.nav-logo {
+		span {
+			padding: $spanpad 0;
+		}
+
+		span:first-of-type {
+			border-bottom: 1px solid $pink;
+		}
+
+		span:last-of-type {
+			border-top: 1px solid $col50;
+		}
+
+	}
+
+	.nav-links {
+		width: 100% - ($nav-side * 2);
+		text-align: center;
+		color: $grey;
+
+		a {
+			text-decoration: none;
+			padding: $spanpad 0;
+
+			&:hover {
+				color: $black;
+				border-bottom: 1px solid $black;
+				@include fader;
+			}
+		}
+
+		a:nth-child(2) {
+			margin: 0 1em;
+		}
+	}
+
+	.nav-booking {
+		text-align: right;
+
+		span{
+			position: relative;
+
+			&:after {
+				content: "";
+				position: absolute;
+				left: -1.5em;
+				top: 0;
+				width: 1em;
+				height: 1.25em;
+				background-image: url('../../images/nav-booking.png');
+				background-size: 1em auto;
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+		}
+	}
