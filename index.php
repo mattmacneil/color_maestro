@@ -3,7 +3,9 @@
     include "nav.php";
 ?>
 
-index file.
+index file!
+
+<div class="hi">hi</div>
 
 
 <?php 
