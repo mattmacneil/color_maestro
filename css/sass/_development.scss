@@ -21,6 +21,7 @@
 			text-transform: uppercase;
 			display: inline-block;
 			margin-bottom: 1em;
+			color: darken($pink, 60%);
 		}
 
 		h1 {
@@ -29,21 +30,22 @@
 			padding-bottom: .25em;
 			margin-bottom: 2em;
 			border-bottom: 1px solid black;
-			-webkit-animation:colorchange 20s infinite alternate;
+			font-weight: bold;
+			-webkit-animation:colorchange 40s infinite alternate;
 		}
 	}
 
-	$col0: red;
-	$col10: red;
-	$col20: red;
-	$col30: red;
-	$col40: red;
-	$col50: red;
-	$col60: red;
-	$col70: red;
-	$col80: red;
-	$col90: red;
-	$col100: red;
+	$col0: #ABC3FF;
+	$col10: #5FFFC8;
+	$col20: #9BF3EB;
+	$col30: #FCFF8A;
+	$col40: #ABC3FF;
+	$col50: #5FFFC8;
+	$col60: #9BF3EB;
+	$col70: #FCFF8A;
+	$col80: #ABC3FF;
+	$col90: #5FFFC8;
+	$col100: #9BF3EB;
 
     @-webkit-keyframes colorchange {
       0%  {color:  $col0; border-color:  $col0;}
